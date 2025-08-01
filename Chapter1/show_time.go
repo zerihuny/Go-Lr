@@ -5,6 +5,6 @@ import (
 	"time"
 )
 
-func DisplayTime() {
-	fmt.Println("time.now() returns the current local time:", time.Now())
+func displayTime() {
+	fmt.Println(time.Now())
 }
