@@ -46,6 +46,11 @@ go version
 # Shows the currently installed Go version (e.g., go1.21.0)
 # Display the Go installation path and settings
 go env
+# Outputs all Go environment variables like GOPATH, GOROOT, GOOS, GOARCH, etc.
+# Create a new workspace/project folder structure (manual)
+mkdir myproject && cd myproject
+# Start a new project by creating and navigating into a folder
+
 
 # Clean compiled binaries and cached files
 go clean
