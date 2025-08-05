@@ -53,7 +53,21 @@ mkdir myproject && cd myproject
 
 # Run multiple Go files together
 go run main.go routes.go db.go  
-# Runs all listed files as a single program
+# Runs all listed files as a single program 
+
+// Install a Go tool globally
+go install golang.org/x/tools/cmd/stringer@latest
+# Installs and adds a Go CLI tool to your system    
+# Download modules but don’t install/build yet
+go mod download
+# Downloads all required modules into the module cache
+# Check if go.mod is tidy without modifying it
+go mod tidy -v
+
+
+
+
+// Shows what was added or removed
 
 # Clean compiled binaries and cached files
 go clean
