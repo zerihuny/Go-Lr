@@ -41,6 +41,11 @@ go list -u -m all
 # Display the call graph for a Go program (advanced)
 go tool callgraph -format digraph main.go
 # Shows the call graph for functions (requires setup)
+// Display the Go version installed
+go version
+# Shows the currently installed Go version (e.g., go1.21.0)
+# Display the Go installation path and settings
+go env
 
 # Clean compiled binaries and cached files
 go clean
