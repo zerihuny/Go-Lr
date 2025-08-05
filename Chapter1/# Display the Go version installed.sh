@@ -51,6 +51,9 @@ go env
 mkdir myproject && cd myproject
 # Start a new project by creating and navigating into a folder
 
+# Run multiple Go files together
+go run main.go routes.go db.go  
+# Runs all listed files as a single program
 
 # Clean compiled binaries and cached files
 go clean
