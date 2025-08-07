@@ -12,7 +12,8 @@ var num4 = 1 + 2i // complex number
 var num5 = 1.618  // float64
 var num6 float32
 
-
+firstName := "John" // short variable declaration
+lastName := "Doe"   // short variable declaration
 
 
 func main() {
