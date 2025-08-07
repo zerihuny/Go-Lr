@@ -14,6 +14,11 @@ var num6 float32
 
 firstName := "John" // short variable declaration
 lastName := "Doe"   // short variable declaration
+// Note: The above short variable declarations will not work at package level in Go.
+// They should be used inside a function or a method.
+var fullName = firstName + " " + lastName // concatenation
+// Note: The above concatenation will not work at package level in Go. 
+// It should be done inside a function or a method.
 
 
 func main() {
