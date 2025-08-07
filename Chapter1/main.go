@@ -19,7 +19,9 @@ lastName := "Doe"   // short variable declaration
 var fullName = firstName + " " + lastName // concatenation
 // Note: The above concatenation will not work at package level in Go. 
 // It should be done inside a function or a method.
-
+firstName, lastName, age := "John", "Doe", 30 // multiple short variable declarations
+// Note: The above multiple short variable declarations will not work at package level in Go.
+// They should be used inside a function or a method.
 
 func main() {
 	fmt.Println("Hello, world!")
