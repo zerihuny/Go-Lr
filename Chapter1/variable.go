@@ -11,8 +11,8 @@ var (
 	city string = "እኔው ቢያም ነኘ" // string variable
 )
 
-const a string = "Hello, Go!" // constant string
-const b int = 100             // constant integer
+// const a string = "Hello, Go!" // constant string
+// const b int = 100             // constant integer
 func usedVariable() {
 	// Example of using variables
 	fmt.Println("Hello, world!")

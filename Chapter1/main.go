@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"reflect"
+	"time"
 )
 
 var num1 = 42    // type inference
@@ -29,6 +31,9 @@ func main() {
 	fmt.Println(num1 + num2 + int(num3) + int(num5) + int(num6))
 	fmt.Println(raining)
 	fmt.Println(num4)
+	start := time.Now()
 
+	fmt.Printf("%T\n", start)          // Display the type of start variable
+	fmt.Println(reflect.TypeOf(start)) // Display the type of start variable using reflect package
 	usedVariable()
 }
