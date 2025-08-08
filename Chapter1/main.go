@@ -35,5 +35,6 @@ func main() {
 
 	fmt.Printf("%T\n", start)          // Display the type of start variable
 	fmt.Println(reflect.TypeOf(start)) // Display the type of start variable using reflect package
+	fmt.Println(reflect.ValueOf(start))
 	usedVariable()
 }
