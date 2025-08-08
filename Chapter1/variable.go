@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"unicode/utf8"
+)
 
 var (
 	name string = "John Doe" // string variable
@@ -23,4 +26,5 @@ func usedVariable() {
 	fmt.Println("City:", city)
 	// Displaying the complex number
 	fmt.Println(num4)
+	fmt.Println(utf8.RuneCountInString(name)) // Count runes in the string
 }
