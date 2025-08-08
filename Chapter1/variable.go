@@ -6,9 +6,9 @@ import (
 )
 
 var (
-	name string = "John Doe" // string variable
-	age  int    = 30         // integer variable
-	city string = "New York" // string variable
+	name string = "John Doe"   // string variable
+	age  int    = 30           // integer variable
+	city string = "እኔው ቢያም ነኘ" // string variable
 )
 
 const a string = "Hello, Go!" // constant string
@@ -27,4 +27,6 @@ func usedVariable() {
 	// Displaying the complex number
 	fmt.Println(num4)
 	fmt.Println(utf8.RuneCountInString(name)) // Count runes in the string
+	fmt.Println(utf8.RuneCountInString(city)) // Count runes in the string
+
 }
