@@ -7,9 +7,11 @@ import (
 	"os"
 	"strconv"
 	"strings"
+	"time"
 )
 
 func main() {
+	rand.Seed(time.Now().UnixNano())
 	target := rand.Intn(100) + 1
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Guess the number (between 1 and 100)!")
