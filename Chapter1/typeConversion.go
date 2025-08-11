@@ -1,11 +1,20 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
-func bini() {
+func main() {
 
-	var age int
+	var input string
 	fmt.Print("Please enter your age: ")
-	fmt.Scanf("%d", &age)
-	fmt.Println("You entered:", age)
+	fmt.Scanf("%s", &input)
+	// fmt.Println("You entered:", age)
+	age, err := strconv.Atoi(input)
+	if err != nil {
+		fmt.Println("Error converting age:", err)
+	} else {
+		fmt.Println("Converted age:", age)
+	}
 }
