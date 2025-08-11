@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func bini() {
 
 	var age int
 	fmt.Print("Please enter your age: ")
