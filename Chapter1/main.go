@@ -1,3 +1,7 @@
+// Package main demonstrates basic variable declarations, type inference, and usage in Go.
+// It includes examples of explicit and inferred types, complex numbers, and float types.
+// Note: Short variable declarations (:=) and variable concatenation are not allowed at the package level in Go;
+// they must be used inside functions or methods.
 package main
 
 import (
@@ -24,7 +28,6 @@ var num6 float32
 // firstName, lastName, age := "John", "Doe", 30 // multiple short variable declarations
 // Note: The above multiple short variable declarations will not work at package level in Go.
 // They should be used inside a function or a method.
-
 func main() {
 	fmt.Println("Hello, world!")
 	displayTime()
@@ -35,7 +38,7 @@ func main() {
 
 	fmt.Printf("%T\n", start)          // Display the type of start variable
 	fmt.Println(reflect.TypeOf(start)) // Display the type of start variable using reflect package
-	fmt.Println(reflect.ValueOf(start))
+	fmt.Println(reflect.ValueOf(start).Kind())
 	usedVariable()
 }
 
