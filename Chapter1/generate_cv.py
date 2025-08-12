@@ -6,6 +6,7 @@ pdf.set_font("Arial", size=12)
 
 content = """Komartisin Lechisa Yabasa
 Mechanical Engineer
+
 Email: komartisinlechisa4@gmail.com | Phone: +251 973 369 489
 Address: Addis Ababa, Ethiopia
 
