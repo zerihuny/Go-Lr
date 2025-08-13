@@ -8,7 +8,7 @@ import (
 func main() {
 
 	var input string
-	fmt.Print("Please enter your age: ")
+	fmt.Println("Please enter your age: ")
 	fmt.Scanf("%s", &input)
 	// fmt.Println("You entered:", age)
 	age, err := strconv.Atoi(input)
