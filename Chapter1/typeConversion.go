@@ -79,3 +79,20 @@ func yetAnotherTypeConversionDemo() {
 	fmt.Println("This is yet another function demonstrating type conversion.")
 	fmt.Println("You can call this function multiple times to see the same behavior.")
 }
+
+// another function to demonstrate type conversion
+func anotherTypeConversionDemo() {
+
+	var input string
+	fmt.Print("Please enter your age: ")
+	fmt.Scanf("%s", &input)
+	// fmt.Println("You entered:", input)
+	age, err := strconv.Atoi(input)
+	if err != nil { // an error occurred
+		fmt.Println(err)
+	} else {
+		fmt.Println("Your age is:", age)
+	}
+	fmt.Println("This is another function demonstrating type conversion.")
+	fmt.Println("You can call this function multiple times to see the same behavior.")
+}
