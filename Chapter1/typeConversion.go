@@ -60,4 +60,6 @@ func typeConversionDemo() {
 	} else {
 		fmt.Println("Your age is:", age)
 	}
+	fmt.Println("This is another function demonstrating type conversion.")
+	fmt.Println("You can call this function multiple times to see the same behavior.")
 }
