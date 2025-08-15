@@ -31,6 +31,3 @@ func lst() {
 	if err != nil { // an error occurred
 		fmt.Println(err)
 	} else {
-		fmt.Println("Your age is:", age)
-	}
-}
