@@ -31,3 +31,12 @@ func lst() {
 	if err != nil { // an error occurred
 		fmt.Println(err)
 	} else {
+		fmt.Println("Your age is:", age)
+	}
+	// Convert string to int
+	// age, err := strconv.Atoi(input)	
+	// if err != nil { // an error occurred	
+	// 	fmt.Println(err)
+	// } else {
+	// 	fmt.Println("Your age is:", age)
+	// }
