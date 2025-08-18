@@ -41,3 +41,11 @@ func main() {
 	fmt.Println(reflect.ValueOf(start).Kind())
 	usedVariable()
 }
+
+// displayTime displays the current time in a formatted string.
+func displayTime() {
+	currentTime := time.Now()
+	fmt.Println("Current time:", currentTime.Format("2006-01-02 15:04:05"))
+	fmt.Println("Current time in UTC:", currentTime.UTC().Format("2006-01-02 15:04:05"))
+	fmt.Println("Current time in local timezone:", currentTime.Local().Format("2006-01-02 15:04:05"))
+}

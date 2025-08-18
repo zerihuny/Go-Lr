@@ -10,11 +10,33 @@ func main() {
 	var input string
 	fmt.Print("Please enter your age: ")
 	fmt.Scanf("%s", &input)
-	// fmt.Println("You entered:", age)
+	// fmt.Println("You entered:", input)
 	age, err := strconv.Atoi(input)
-	if err != nil {
-		fmt.Println("Error converting age:", err)
+	if err != nil { // an error occurred
+		fmt.Println(err)
 	} else {
-		fmt.Println("Converted age:", age)
+		fmt.Println("Your age is:", age)
 	}
 }
+package main
+
+
+func lst() {
+
+	var input string
+	fmt.Print("Please enter your age: ")
+	fmt.Scanf("%s", &input)
+	// fmt.Println("You entered:", input)
+	age, err := strconv.Atoi(input)
+	if err != nil { // an error occurred
+		fmt.Println(err)
+	} else {
+		fmt.Println("Your age is:", age)
+	}
+	// Convert string to int
+	// age, err := strconv.Atoi(input)	
+	// if err != nil { // an error occurred	
+	// 	fmt.Println(err)
+	// } else {
+	// 	fmt.Println("Your age is:", age)
+	// }
