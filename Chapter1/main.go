@@ -1,7 +1,3 @@
-// Package main demonstrates basic variable declarations, type inference, and usage in Go.
-// It includes examples of explicit and inferred types, complex numbers, and float types.
-// Note: Short variable declarations (:=) and variable concatenation are not allowed at the package level in Go;
-// they must be used inside functions or methods.
 package main
 
 import (
