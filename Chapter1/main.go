@@ -28,6 +28,11 @@ func main() {
 	usedVariable()
 }
 
+// usedVariable is a function that uses the num1 variable.
+func usedVariable() {
+	fmt.Println("Using num1:", num1)
+}	
+
 // displayTime displays the current time in a formatted string.
 func displayTime() {
 	currentTime := time.Now()
