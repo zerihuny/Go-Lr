@@ -73,6 +73,7 @@ func main() {
 	http.HandleFunc("/gc", gcHeavyHandler)
 
 	// pprof-start
+	
 	// ...
 
 	// Start pprof in a separate goroutine.
