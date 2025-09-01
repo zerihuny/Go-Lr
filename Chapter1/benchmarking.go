@@ -104,3 +104,9 @@ func main() {
 	}
 	log.Println("Server exited")
 }
+go func() {
+		log.Println("pprof listening on :6060")
+		if err := http.ListenAndServe("localhost:6060", nil); err != nil {
+			log.Fatalf("pprof server error: %v", err)
+		}
+	}()	
