@@ -68,7 +68,7 @@ func bloop(pass *analysis.Pass) {
 					})
 				}
 			}
-			return true
+			return true // continue seaching
 		})
 
 		// Replace ...b.N... with b.Loop().
