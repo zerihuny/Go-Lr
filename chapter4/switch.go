@@ -22,7 +22,7 @@ func main() {
 	case time.Saturday, time.Sunday:
 		fmt.Println("It's the weekend")
 	default:
-		fmt.Println("It's a weekday" + time.Now().Weekday().String())
+		fmt.Println("It's a weekday")
 	}
 
 	t := time.Now()
